@@ -1,0 +1,151 @@
+/*
+theme name: Trabalhe Conosco
+*/
+
+body {
+    background-color: #fff;
+    color: #565656;
+    font-family: Tahoma;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    height: 56px;
+    background-color: #1e2a54;
+    padding: 30px 20px 0 30px;
+}
+
+header a img {
+    width: 55px;
+    height: auto;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    width: 80px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 60px;
+}
+
+header nav a img {
+    height: 14px;
+    width: auto;
+    margin-right: 10px;
+    padding-top: 6px;
+}
+
+.index__content{
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 0;
+}
+
+h2 {
+    color: #1e2a54;
+    font-size: 26px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+form {
+    text-align: left;
+    padding-top: 40px;
+}
+
+input {
+    width: 100%;
+    border: 0;
+    height: 28px;
+    border-bottom: 1px solid #565656;
+    margin: 20px 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border: 0;
+    background-color: #1e2a54;
+    color: #fff;
+    height: 30px;
+    border-radius: 6px;
+}
+
+input[type="file"] {
+    border: 0;
+}
+
+select {
+    width: 100%;
+}
+
+span {
+    margin-top: 10px;
+}
+
+.obrigado {
+    width: 300px;
+    margin: 0 auto;
+    padding: 280px 0;
+    text-align: center;
+}
+
+.obrigado img {
+    width: 160px;
+    height: auto;
+}
+
+footer {
+    background-color: #1e2a54;
+    color: #fff;
+    padding: 40px 20px;
+    overflow: auto;
+}
+
+footer img {
+    float: right;
+    width: 55px;
+    height: auto;
+}
+
+.cadastros {
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.cadastros h2 {
+    margin-top: 80px;
+}
+
+.cadastros table {
+    text-align: center;
+    border-radius: 6px;
+    border-collapse: collapse;
+}
+
+.cadastros table, th, td {
+    border: 1px #565656 solid;
+    margin: 0;
+    padding: 10px;
+}
